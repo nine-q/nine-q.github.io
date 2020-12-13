@@ -1,0 +1,65 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: #dfdfdf;
+}
+
+.row:before,
+.row:after {
+  content: ".";    
+  display: block;    
+  height: 0;    
+  overflow: hidden;        
+
+}
+.row:after { clear: both; }
+.row { zoom: 1 ;} /* IE < 8 */
+
+.header {
+ height: 42px;
+ background: #ffffff;
+ font-size: 40px;
+}
+.tabs {
+ height: 20px;
+ background: #ffffff;
+}
+
+.content {
+ background: #ffffff;
+  width: 10%;
+ min-height: 620px;
+   float: left;
+}
+
+.sidebar1 {
+    width: 90%;
+ float: left;
+     background: #ffffff;
+         min-height: 620px;
+
+
+}
+
+
+.footer {
+ background: #ffffff;
+    height: 120px;
+
+
+}
+
+.b {
+font-weight: bold;
+}
+
+
+.g {
+font-weight: bold;
+ font-size: 32px;
+}
+
+
