@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Установка программ в Debian/Ubuntu - nine1z</title>
+<link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="header"><a class="b">nine1z</a></div>
+    <div class="row">
+	    <div class="tabs"></div>
+    <div class="content">
+	<a href="../index.html">Главная</a><br>
+	<a href="../books/index.html">Книги</a><br>
+	<a href="index.html">Статьи</a><br>
+	<a href="../videos/index.html">Видео</a><br>
+	<a href="../courses/index.html">Курсы</a><br>
+	<a href="../soft/index.html">ПО</a>
+
+</div>
+    <div class="sidebar1">
+	<a class="g">Установка программ в Debian/Ubuntu.</a><br>
+<a href="https://zen.yandex.ru/media/id/5f0462b931fc6c1b40c7442b/ustanovka-programm-v-debianubuntu-5fb98502ffe1de7f5c6bfa61" class="b">Читать на Дзен.</a><hr>
+<a>
+Можно выделить два способа установки программ в GNU/Linux:<br>
+- из пакетов;<br>
+- из репозиторий.<br>
+Мы рассмотрим оба.<br>
+Установка ПО в Debian/Ubuntu с помощью пакетного менеджера APT.<br>
+Для установки программ в Debian/Ubuntu из репозиторий можно воспользоваться пакетным менеджером APT.<br>
+Заходим в терминал и выполняем следующее:<br>
+sudo apt install -y название_программы<br>
+sudo - говорим, что нужно команду нужно выпустить с правами суперпользователя.<br>
+apt - запускаем консольный пакетный менеджер apt.<br>
+install - говорим, что нужно установить прогамму.<br>
+-y - подтверждаем свои действия.<br>
+Например, для установки медиаплеера VLC, нужно выполнить sudo apt install -y vlc<br>
+Также можно устанавливать сразу несколько программ. Например:<br>
+sudo apt install -y kdenlive midori telegram-desktop krita thunderbird vlc<br>
+Установка ПО в Debian/Ubuntu из deb-пакетов.<br>
+Deb-пакеты характерны только для дистрибутивов семейства Debian.<br>
+Deb-пакеты встречаются довольно часто. Как правило, они доступны для скачивания на официальных сайтах программ.<br>
+Для установки deb-пакетов установим GDebi. Для этого выполним в терминале следующее:<br>
+sudo apt install -y gdebi<br>
+Теперь запускаем нужный deb-пакет при помощи gdebi и нажимаем "Install Package".<br>
+</a>
+
+</div>
+    
+
+    </div>
+    <div class="footer"><a class="b">nine1z</a><br>nine-q.github.io/nine1z<br><a href="https://www.youtube.com/channel/UCeoyiitPKGWoLCxTwWciYBA?view_as=subscriber ">YouTube</a><br><a href="https://www.litres.ru/yan-damenckiy/">Litres</a><br><a href="https://zen.yandex.ru/id/5f0462b931fc6c1b40c7442b">Яндекс Дзен</a><br>2020</div>
+    
+    </div>
+</body>
+</html>
